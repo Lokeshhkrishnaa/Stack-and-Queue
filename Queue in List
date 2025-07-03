@@ -30,7 +30,6 @@ class Queue:
     def display(self):
         print("Queue (front to rear):", self.queue)
 
-# Example usage
 q = Queue()
 q.enqueue(10)
 q.enqueue(20)
